@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../../assets/fonts/1da0758f646febcdf866.woff2) format('woff2'),
+    url(../../assets/fonts/5443633e4f3f34d55fb5.woff) format('woff'),
+    url(../../assets/fonts/71eb687e3b80488e8c79.ttf) format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../../assets/fonts/6aab475a7e27a6f02aed.woff2) format('woff2'),
+    url(../../assets/fonts/fdec1a8704afeefc6527.woff) format('woff'),
+    url(../../assets/fonts/09aa44bfee794bd5211e.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../../assets/fonts/e1c5f6afb157b4dce636.woff2) format('woff2'),
+    url(../../assets/fonts/dbfb1111e2a0efa7925a.woff) format('woff'),
+    url(../../assets/fonts/6a5b01115543f1cab3ed.ttf) format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url(../../assets/fonts/7b0b5e2dbcae3a939832.woff2) format('woff2'),
+    url(../../assets/fonts/d830ec24fbd1a8a4c59a.woff) format('woff'),
+    url(../../assets/fonts/868cdd37232f734e7c2e.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+html,body{width:100%;height:100%;overflow-y:auto;margin:0;padding:0}#root{display:grid;grid-template-rows:max-content 1fr max-content;grid-template-areas:"header" "main" "footer";height:100vh;overflow-y:auto;background:linear-gradient(180deg, #101010 34.44%, #525252 100%)}header{grid-area:header}main{grid-area:main}footer{grid-area:footer}
